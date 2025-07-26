@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Doctor class
+
 class Doctor {
     String name;
     String id;
@@ -27,7 +27,7 @@ class Doctor {
     }
 }
 
-// Nurse class
+
 class Nurse {
     String name;
     String id;
@@ -54,7 +54,7 @@ class Nurse {
     }
 }
 
-// Patient class
+
 class Patient {
     String name;
     String id;
@@ -81,7 +81,7 @@ class Patient {
     }
 }
 
-// Main class
+
 public class HospitalSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -99,7 +99,7 @@ public class HospitalSystem {
         System.out.println("\nEnter Patient Details:");
         patient.input(sc);
 
-        // Display all details
+       
         doc.display();
         nurse.display();
         patient.display();
